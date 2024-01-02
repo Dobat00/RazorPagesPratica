@@ -1,0 +1,22 @@
+﻿@page
+@model RazorPagesPratica.Pages.IndexModel
+@{
+    string title = "My first app, c# var/html";
+    string title2 = Model.Title;
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My first app</title>
+
+    </head>
+    <body>
+
+    <h1>My first app</h1>
+    <h1>@title</h1>
+    <h1>@title2</h1>
+    <a href="./movies">Go to Movies page</a>
+    </body>
+    
+</html>
